@@ -1,0 +1,11 @@
+[2024-06-14T03:56:27.448+0000] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/AirflowCSV.py
+[2024-06-14T03:56:27.450+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/AirflowCSV.py for tasks to queue
+[2024-06-14T03:56:27.452+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:27.452+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/AirflowCSV.py
+[2024-06-14T03:56:28.235+0000] {processor.py:650} INFO - DAG(s) dict_keys(['H8CSVDAG']) retrieved from /opt/airflow/dags/AirflowCSV.py
+[2024-06-14T03:56:28.327+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.327+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:H8CSVDAG
+[2024-06-14T03:56:28.342+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.342+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:H8CSVDAG
+[2024-06-14T03:56:28.351+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.351+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:H8CSVDAG
+[2024-06-14T03:56:28.352+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.351+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-06-14T03:56:28.363+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.363+0000] {dag.py:2448} INFO - Creating ORM DAG for H8CSVDAG
+[2024-06-14T03:56:28.376+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:28.376+0000] {dag.py:2981} INFO - Setting next_dagrun for H8CSVDAG to 2022-11-30T00:00:00+00:00, run_after=2022-11-30T00:05:00+00:00
+[2024-06-14T03:56:28.388+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/AirflowCSV.py took 0.949 seconds

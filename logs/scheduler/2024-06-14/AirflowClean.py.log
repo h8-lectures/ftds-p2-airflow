@@ -1,0 +1,11 @@
+[2024-06-14T03:56:25.835+0000] {processor.py:153} INFO - Started process (PID=200) to work on /opt/airflow/dags/AirflowClean.py
+[2024-06-14T03:56:25.838+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/AirflowClean.py for tasks to queue
+[2024-06-14T03:56:25.839+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:25.839+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/AirflowClean.py
+[2024-06-14T03:56:26.654+0000] {processor.py:650} INFO - DAG(s) dict_keys(['H8CleanData']) retrieved from /opt/airflow/dags/AirflowClean.py
+[2024-06-14T03:56:26.932+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:26.931+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:H8CleanData
+[2024-06-14T03:56:26.984+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:26.983+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:H8CleanData
+[2024-06-14T03:56:27.088+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:27.081+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:H8CleanData
+[2024-06-14T03:56:27.157+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:27.120+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-06-14T03:56:27.299+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:27.297+0000] {dag.py:2448} INFO - Creating ORM DAG for H8CleanData
+[2024-06-14T03:56:27.333+0000] {logging_mixin.py:115} INFO - [2024-06-14T03:56:27.333+0000] {dag.py:2981} INFO - Setting next_dagrun for H8CleanData to 2022-11-30T00:00:00+00:00, run_after=2022-11-30T01:00:00+00:00
+[2024-06-14T03:56:27.355+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/AirflowClean.py took 1.526 seconds
