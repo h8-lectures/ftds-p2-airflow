@@ -26,3 +26,4 @@ Key features:
 
 - Official Documentation <https://airflow.apache.org/docs/apache-airflow/stable/index.html>
 - Running Airflow in Docker <https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html>
+- Best Practices <https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html>
